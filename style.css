@@ -3,16 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+:root {
+  --red-color: ##d80032;
+  --dark-blue-color: #2b2d42;
+  --light-color: #fefefe;
+  --cyan-color: #41ead4;
+}
 .wrapper {
   width: 1152px;
   margin: 0 auto;
 }
-
+a {
+  text-decoration: none;
+}
 /* Nav-container */
 
 .desktop-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 30px;
+  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+}
+
+.desktop-nav .menu-items {
+  display: flex;
+  list-style: none;
+  gap: 40px;
 }
