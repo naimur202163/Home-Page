@@ -118,7 +118,11 @@ a.btn.cyan {
 /* polgoy */
 
 .hero-bg {
-  display: none;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
 }
 .polygon-container {
   display: none;
