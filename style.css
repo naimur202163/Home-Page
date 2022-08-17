@@ -17,3 +17,28 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+.wrapper {
+  width: 1152px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+.desktop-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.desktop-nav .menu-items {
+  display: flex;
+  list-style: none;
+}
+
+.desktop-nav .menu-items li {
+  margin: 0 20px;
+}
+.desktop-nav .menu-items li a {
+  text-decoration: none;
+  color: var(--dark-color);
+  font-size: 16px;
+  font-weight: bold;
+}
