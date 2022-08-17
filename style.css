@@ -41,7 +41,13 @@ body {
   display: flex;
   list-style: none;
 }
+section {
+  padding-top: 100px;
+}
 
+section p {
+  color: var(--dark-color);
+}
 .desktop-nav .menu-items li {
   margin: 0 20px;
 }
@@ -80,7 +86,10 @@ a.btn:hover {
 a.btn.cyan:hover {
   background: var(--cyan-hover-color);
 }
-
+p {
+  line-height: 2;
+  margin-bottom: 20px;
+}
 /* HERO SECTION */
 
 .desktop-nav .menu-items li:nth-last-child(1) {
@@ -180,7 +189,8 @@ a.btn.cyan:hover {
   align-items: center;
 }
 
-.brands-section h2 {
+.brands-section h2,
+section h2 {
   font-size: 32px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -189,7 +199,8 @@ a.btn.cyan:hover {
   position: relative;
 }
 
-.brands-section h2::after {
+.brands-section h2::after,
+section h2::after {
   position: absolute;
   content: "";
   height: 3px;
@@ -197,4 +208,15 @@ a.btn.cyan:hover {
   width: 43px;
   transform: translateX(-43px);
   bottom: 0;
+}
+/* About Section */
+
+.about-section .section-content {
+  display: flex;
+
+  align-items: center;
+}
+
+.about-section .section-content img {
+  margin-left: 100px;
 }
