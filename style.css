@@ -8,3 +8,12 @@
   --red-hover-color: #be0732;
   --cyan-hover-color: #6af3e1;
 }
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
