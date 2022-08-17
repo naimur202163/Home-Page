@@ -159,3 +159,23 @@ a.btn.cyan:hover {
   top: 300px;
   left: 540px;
 }
+
+/* Working on Brand -section */
+
+.brands-section {
+  background: var(--light-color);
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 24px;
+  padding: 30px 50px;
+  margin-top: 100px;
+}
+
+.brands-section .brands-container img {
+  height: 32px;
+}
+
+.brands-section .brands-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
