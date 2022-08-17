@@ -179,3 +179,22 @@ a.btn.cyan:hover {
   justify-content: space-between;
   align-items: center;
 }
+
+.brands-section h2 {
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: var(--dark-color);
+  margin-bottom: 48px;
+  position: relative;
+}
+
+.brands-section h2::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  background: var(--red-color);
+  width: 43px;
+  transform: translateX(-43px);
+  bottom: 0;
+}
