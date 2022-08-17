@@ -64,12 +64,14 @@ a.btn {
   padding: 14px 30px;
   text-decoration: none;
   font-weight: bold;
+  transition: background-color 400ms;
 }
 
 a.btn.cyan {
   background: var(--cyan-color);
   color: var(--dark-color);
   font-weight: bold;
+  transition: background-color 400ms;
 }
 
 a.btn:hover {
